@@ -1,8 +1,9 @@
 import java.util.Scanner;
 class Student{
-	interface program4 extends Parent {
+	// interface program4 extends Parent {
 		
-	}t id_no;
+	
+	int id_no;
 	int no_of_subject;
 	int[] subject_code;
 	int[] credit;
@@ -25,22 +26,24 @@ class Student{
 }
 
 public class program4{
-	public static void main(String[]args){
+	public static void main(String[] args){
 		Scanner sc =new Scanner(System.in);
 		System.out.println("No of Student:");
 		int n=sc.nextInt();
 		Student[] st = new Student[n];
 
-		for(int i=0;i<n;i++){
+		// for(int i=0;i<n;i++){
+		// 	// st[i].subject_code;
+		// }
 
-		}
+		// for(int i=0;i<n;i++){
 
-		for(int i=0;i<n;i++){
+		// }
 
-		}
-
-			for(int i=0;i<n;i++){
+		// 	for(int i=0;i<n;i++){
 			
-		}
+		// }
+
+		System.out.println("hello");
 	}
 }
