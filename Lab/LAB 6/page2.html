@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            height: 70vh;
+            width: 100%;
+            border: 2px solid red;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+        }
+        .header{
+            height: 10%;
+            width: 100%;
+            border: 1px solid black;
+        }
+        .middle{
+            height: 80%;
+            width: 100%;
+            border: 1px solid red;
+        }
+        .footer{
+            height: 10%;
+            width: 100%;
+            border: 1px solid yellow;
+        }
+        .entry{
+            height: 50%;
+            width: 60%;
+            border: 1px solid black;
+            float: left;
+            background-color: chartreuse;
+        }
+
+        .sidebar{
+            height: 50%;
+            width: 30%;
+            border: 1px solid black;
+            float:right;
+            background-color: blueviolet;
+            
+        }
+
+        @media (max-width:450px) {
+            .sidebar{
+                width: 59.5%;
+               
+                margin-right: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+            <div class="header"></div>
+            <div class="middle">
+                <div class="entry"></div>
+                <div class="sidebar"></div>
+            </div>
+            <div class="footer"></div>
+            
+    </div>
+</body>
+</html>

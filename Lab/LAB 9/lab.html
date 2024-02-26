@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Move Div from Right to Left</title>
+  <style>
+    .moveRightToLeft {
+      position: absolute;
+      right: 0;
+      animation: moveAnimation 3s ease-in-out forwards;
+    }
+
+    @keyframes moveAnimation {
+      from {
+        right: 0;
+      }
+
+      to {
+        left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="moveRightToLeft">
+    <!-- Your content goes here -->
+    <p>This div is moving from right to left.</p>
+  </div>
+
+</body>
+</html>

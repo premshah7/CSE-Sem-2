@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>STAR</title>
+	<style type="text/css">
+		.main{
+			background-color: skyblue;
+			height: 1000px;
+			width: 100%;
+		}
+		.star{
+			height: 10px;
+			width: 10px;
+			animation-name: Star;
+			animation-duration: 20s;
+			background-color: red;
+			position: absolute;
+		}
+
+		@keyframes Star{
+			0%{
+				top: 500px;
+				left: 0px;
+			}
+			20%{
+				top: 0px;
+				width: 50%;
+			}
+			40%{
+				top: 500px;
+				left: 100%;
+			}
+			60%{
+				top: 250px;
+				left: 0px;
+			}
+			80%{
+				top: 250;
+				left: 100%;
+			}
+			100%{
+				top: 500px;
+				left: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="star"></div>
+	</div>
+</body>
+</html>

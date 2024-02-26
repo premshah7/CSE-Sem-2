@@ -1,0 +1,9 @@
+.MAIN{
+    height: auto;
+    width: 100%;
+}
+.h1{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}

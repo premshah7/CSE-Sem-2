@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LAB 9A</title>
+	<style type="text/css">
+		.d1{
+			background-color: blueviolet;
+		}
+		.d1:hover{
+			background-color: yellowgreen;
+		}
+		.d2{
+			animation-name: World;
+			animation-duration: 5s;
+			position: absolute;
+		}
+
+		.d3{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			animation-name: box;
+			position: absolute;
+			animation-duration: 10s;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: reverse;
+			animation-timing-function: linear;
+		}
+
+		@keyframes box{
+			0%{
+				top: 0px;
+				left: 0px;
+			}
+			25%{
+				top: 0px;
+				left: 800px;
+				background-color: blue;
+			}
+			50%{
+				top: 500px;
+				left: 800px;
+				background-color: hotpink;
+			}
+			75%{
+				top: 500px;
+				left: 0px;
+				background-color: black;
+			}
+			100%{
+				top: 0px;
+				left: 0px;
+				background-color: yellow;
+			}
+		}
+
+		/*@keyframes World{
+			from{
+				background-color: blue;
+				right: 0%;
+				
+			}
+			to{
+				background-color: yellowgreen;
+				left: 100%;
+
+			}
+		}*/
+	</style>
+</head>
+<body>
+	<!-- <div class="d1">Hello</div>
+		<div class="d2">Bye</div> -->
+			<div class="d3">
+				HELLO
+			</div>
+</body>
+</html>

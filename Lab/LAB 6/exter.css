@@ -1,0 +1,69 @@
+.h1{
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+.text{
+	float: left;
+	text-align: center;
+	
+}
+.main{
+	margin-left: 12%;
+	width: 80%;
+	color: white;
+	text-align: center;															
+	float: right;
+}
+.header{
+	width: 70%;
+	background-color: red;
+	height: 125px;
+	margin-bottom: 5px;
+}
+.navigation{
+	background-color: navy;
+	height: 500px;
+	width: 10%;
+	margin-right: 10px;
+	float: left;
+}
+.content{
+	background-color: yellow;
+	height: 500px;
+	float: left;
+	width: 59%;
+	z-index: -5;
+	color: black;
+	margin-right: 5px;																																													
+}
+.sidebar{
+	background-color: green;
+	height: 300px;
+	width: 95%;	
+	z-index: 20;
+	float: right;
+}
+.white{
+	background-color: white;
+	height: 305px;
+	width: 20%;
+	z-index: 10;
+	float: right; 
+}
+.footer{
+	background-color: #368BC1;
+	height: 50px;
+	width: 70%;
+	float: left;
+	margin-top: 10px;
+	
+}/*
+.ext{
+	background-color: yellow;
+	margin-left: 0px;
+	width: 10%;
+	height: 195px;
+	float: right;
+}*/
