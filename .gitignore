@@ -7,3 +7,6 @@
 *.jpeg
 *.java
 *.class
+*.css
+*.map
+*.js
